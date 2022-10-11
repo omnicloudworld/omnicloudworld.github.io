@@ -19,3 +19,4 @@ extra:
 
 extra_css:
   - static/css/skyant.css
+  - static/css/hide-versions.css
