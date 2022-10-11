@@ -14,12 +14,8 @@ theme:
       code: Roboto Mono
 
 extra:
-  generator: false
+  generator: true
   homepage: https://skyant.dev
-  version:
-    provider: mike
 
 extra_css:
   - static/css/skyant.css
-
-copyright: Copyright &copy; 2022 Iurii Tarasenko

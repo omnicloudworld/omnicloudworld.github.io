@@ -1,1 +1,5 @@
-Doc INDEX
+---
+hide:
+  - footer
+---
+
