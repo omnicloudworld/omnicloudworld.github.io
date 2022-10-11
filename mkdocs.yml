@@ -4,8 +4,14 @@ docs_dir: site
 
 theme: 
     name: material
-    favicon: site/assets/icons/558614-512-2.png
-    logo: site/assets/icons/558614-4096-2.png
+    favicon: assets/icons/558614-512-2.png
+    logo: assets/icons/558614-4096-2.png
+    palette:
+      primary: amber
+      accent: deep purple
+    font:
+      text: Montserrat Alternates
+      code: Roboto Mono
 
 extra:
   generator: false
