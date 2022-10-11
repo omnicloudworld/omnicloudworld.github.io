@@ -1,11 +1,14 @@
 site_name: SkyANT
 
-docs_dir: .docs
+docs_dir: site
 
 theme: 
     name: material
+    favicon: site/assets/icons/558614-512-2.png
+    logo: site/assets/icons/558614-4096-2.png
 
 extra:
   generator: false
+  homepage: https://skyant.dev
 
 copyright: Copyright &copy; 2022 Iurii Tarasenko
