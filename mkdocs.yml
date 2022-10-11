@@ -9,6 +9,6 @@ theme:
 
 extra:
   generator: false
-  homepage: https://skyant.dev
+  #homepage: https://skyant.dev
 
 copyright: Copyright &copy; 2022 Iurii Tarasenko
