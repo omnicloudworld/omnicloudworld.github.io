@@ -4,7 +4,7 @@ docs_dir: site
 
 theme: 
     name: material
-    favicon: assets/icons/558614-512-2.png
+    favicon: assets/icons/558614-512-1.png
     logo: assets/icons/558614.svg
     palette:
       primary: amber
@@ -15,6 +15,11 @@ theme:
 
 extra:
   generator: false
-  #homepage: https://skyant.dev
+  homepage: https://skyant.dev
+  version:
+    provider: mike
+
+extra_css:
+  - static/css/skyant.css
 
 copyright: Copyright &copy; 2022 Iurii Tarasenko
