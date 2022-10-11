@@ -10,4 +10,4 @@ build:
 
 python:
   install:
-    - requirements: req.pip
+    - requirements: .docs/req.pip
