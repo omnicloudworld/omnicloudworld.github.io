@@ -5,7 +5,7 @@ docs_dir: site
 theme: 
     name: material
     favicon: assets/icons/558614-512-2.png
-    logo: assets/icons/558614-4096-2.png
+    logo: assets/icons/558614.svg
     palette:
       primary: amber
       accent: deep purple
