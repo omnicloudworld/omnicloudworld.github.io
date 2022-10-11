@@ -1,0 +1,11 @@
+site_name: SkyANT
+
+docs_dir: .docs
+
+theme: 
+    name: material
+
+extra:
+  generator: false
+
+copyright: Copyright &copy; 2022 Iurii Tarasenko
