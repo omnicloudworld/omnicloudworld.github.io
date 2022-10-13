@@ -33,3 +33,10 @@ plugins:
     - search:
         indexing: 'full'
 
+nav:
+
+    - 'HOME': index.md
+    - 'VISION': vision.md
+    - 'DOCKER': docker.md
+    - 'PYTHON': python.md
+    - 'WORKSPACE': workspace.md
