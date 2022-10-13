@@ -1,7 +1,7 @@
 # Python packages
 
 
-## Adept
+## [Adept](https://skyant.dev/projects/adept)
 
 
 Pckages in this namespace provide the hi-level method for manipulating a data from 
@@ -15,7 +15,7 @@ Adept's methods provide features for fast & useful:
     - [Google Cloud Storage bucket](https://cloud.google.com/storage/) or local file in 
     additional formats;
     
-    - Google noSQL database [Firestore](https://cloud.google.com/firestore) and thanks to our special field references between documents will be transparently processed;\
+    - Google noSQL database [Firestore](https://cloud.google.com/firestore) and thanks to our special field references between documents will be transparently processed;  
     Adept also support save/load internationalisation string in multiple languages (in development).
 
 
