@@ -1,5 +1,6 @@
 ---
 hide:
-  - footer
+    - footer
+    - toc
 ---
 

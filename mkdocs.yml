@@ -7,16 +7,29 @@ theme:
     favicon: assets/icons/558614-512-1.png
     logo: assets/icons/558614.svg
     palette:
-      primary: amber
-      accent: deep purple
+        primary: amber
+        accent: deep purple
     font:
-      text: Montserrat Alternates
-      code: Roboto Mono
+        text: Montserrat Alternates
+        code: Roboto Mono
 
 extra:
-  generator: true
-  homepage: https://skyant.dev
+    generator: true
+    homepage: https://skyant.dev
 
 extra_css:
-  - static/css/skyant.css
-  - static/css/hide-versions.css
+    - static/css/skyant.css
+    - static/css/hide-versions.css
+
+plugins:
+    - mkdocstrings:
+        handlers:
+            python:
+                options:
+                    show_source: false
+                    show_root_full_path: false
+                    show_bases: false
+                    show_category_heading: true
+    - search:
+        indexing: 'full'
+
