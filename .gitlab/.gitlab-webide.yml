@@ -1,0 +1,8 @@
+terminal:
+
+    image: python:3.10-slim
+    
+    before_script:
+        - pip3 install mkdocs-material mkdocs mkdocstrings[python]
+    
+    script: bash

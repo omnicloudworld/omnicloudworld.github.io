@@ -1,4 +1,1 @@
----
-hide:
-    - footer
----
+# Python packages
