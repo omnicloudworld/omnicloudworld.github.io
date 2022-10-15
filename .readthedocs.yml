@@ -18,3 +18,5 @@ search:
         api/v2/*: 4
     ignore:
         - 404.html
+    projects:
+        - project: skyant-adept
