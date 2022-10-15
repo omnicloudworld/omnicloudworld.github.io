@@ -11,3 +11,10 @@ build:
 python:
     install:
         - requirements: .readthedocs.pip
+
+search:
+    ranking:
+        api/v1/*: -1
+        api/v2/*: 4
+    ignore:
+        - 404.html
