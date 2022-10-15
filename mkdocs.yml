@@ -32,6 +32,9 @@ plugins:
                     show_category_heading: true
     - search:
         indexing: 'full'
+        projects:
+            - project: skyant-adept
+
 
 nav:
 
