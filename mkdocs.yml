@@ -4,18 +4,32 @@ docs_dir: site
 
 theme: 
     name: material
-    favicon: assets/icons/558614-512-1.png
+    favicon: assets/icons/558614-512-3.png
     logo: assets/icons/558614.svg
     palette:
         primary: amber
         accent: deep purple
     font:
-        text: Montserrat Alternates
+        text: Montserrat
         code: Roboto Mono
 
 extra:
     generator: true
     homepage: https://skyant.dev
+
+    social:
+        
+        - icon: fontawesome/brands/twitter
+          link: https://twitter.com/skyantdev
+          name: SkyANT on Twitter
+        
+        - icon: fontawesome/brands/slack
+          link: https://skyantdev.slack.com
+          name: SkyANT on Slack
+
+        - icon: fontawesome/solid/at
+          link: mailto:info@skyant.dev
+
 
 extra_css:
     - static/css/skyant.css
@@ -26,10 +40,12 @@ plugins:
         handlers:
             python:
                 options:
-                    show_source: false
+                    show_source: true
                     show_root_full_path: false
+                    show_root_toc_entry: true
                     show_bases: false
-                    show_category_heading: true
+                    show_category_heading: false
+
     - search:
         indexing: 'full'
         projects:
