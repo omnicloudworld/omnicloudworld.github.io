@@ -25,20 +25,20 @@ extra:
 
     social:
         
-        - icon: fontawesome/solid/circle-dollar-to-slot
+        - icon: fontawesome/solid/sack-dollar
           link: https://buymeacoffee.com/skyantdev
-          name: Donate US
+          name: Donate us
         
         - icon: fontawesome/brands/twitter
           link: https://twitter.com/skyantdev
           name: SkyANT on Twitter
         
-        - icon: fontawesome/brands/slack
-          link: https://skyantdev.slack.com
-          name: SkyANT on Slack
+        - icon: fontawesome/brands/gitlab
+          link: https://gitlab.com/skyant
+          name: SkyANT's repositories
 
-        - icon: fontawesome/solid/at
-          link: mailto:info@skyant.dev
+        - icon: fontawesome/solid/comment
+          link: https://gitter.com/skyantdev
 
 
 extra_css:
