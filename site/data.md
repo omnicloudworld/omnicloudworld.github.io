@@ -4,9 +4,5 @@ hide:
     - navigation
 ---
 
-#
 
-## Vision
-
-## Collaboration
-
+## Adept

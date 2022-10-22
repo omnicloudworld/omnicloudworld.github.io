@@ -1,12 +1,6 @@
 ---
 hide:
     - footer
+    - toc
     - navigation
 ---
-
-#
-
-## Vision
-
-## Collaboration
-

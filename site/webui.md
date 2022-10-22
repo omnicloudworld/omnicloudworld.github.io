@@ -4,9 +4,10 @@ hide:
     - navigation
 ---
 
-#
 
-## Vision
+# Web UI
 
-## Collaboration
 
+## Plotly Dash
+
+## PyScript

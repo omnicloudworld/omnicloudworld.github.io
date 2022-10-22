@@ -12,6 +12,12 @@ theme:
     font:
         text: Montserrat
         code: Roboto Mono
+    features:
+        - search.highlight
+        - search.suggest
+        - navigation.tabs
+        - navigation.tabs.sticky
+
 
 extra:
     generator: true
@@ -55,7 +61,10 @@ plugins:
 nav:
 
     - 'HOME': index.md
-    - 'VISION': vision.md
+    - 'DATA': data.md
     - 'DOCKER': docker.md
-    - 'PYTHON': python.md
-    - 'WORKSPACE': workspace.md
+    - 'gRPC': grpc.md
+    - 'REST': rest.md
+    - 'SCRAPPING': scrapping.md
+    - 'WEBUI': webui.md
+    - 'TOOLS': tools.md
