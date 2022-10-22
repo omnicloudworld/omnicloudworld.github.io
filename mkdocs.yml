@@ -25,6 +25,10 @@ extra:
 
     social:
         
+        - icon: fontawesome/solid/circle-dollar-to-slot
+          link: https://buymeacoffee.com/skyantdev
+          name: Donate US
+        
         - icon: fontawesome/brands/twitter
           link: https://twitter.com/skyantdev
           name: SkyANT on Twitter
