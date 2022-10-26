@@ -19,6 +19,7 @@ theme:
         - navigation.tabs.sticky
 
 
+copyright: Copyright &copy; 2020 Iurii Tarasenko
 extra:
     generator: true
     homepage: https://skyant.dev
@@ -27,23 +28,22 @@ extra:
         
         - icon: fontawesome/solid/sack-dollar
           link: https://buymeacoffee.com/skyantdev
-          name: Donate us
         
-        - icon: fontawesome/brands/twitter
-          link: https://twitter.com/skyantdev
-          name: SkyANT on Twitter
+        - icon: fontawesome/brands/linkedin
+          link: https://www.linkedin.com/company/skyantdev
         
         - icon: fontawesome/brands/gitlab
           link: https://gitlab.com/skyant
-          name: SkyANT's repositories
 
-        - icon: fontawesome/solid/comment
-          link: https://gitter.com/skyantdev
+        - icon: fontawesome/solid/user-group
+          link: https://groups.google.com/a/skyant.dev/g/community
 
 
 extra_css:
     - static/css/skyant.css
     - static/css/hide-versions.css
+    - static/css/hide-title.css
+
 
 plugins:
     - mkdocstrings:
@@ -60,15 +60,13 @@ plugins:
         indexing: 'full'
         projects:
             - project: skyant-adept
+    
+    - section-index
 
 
 nav:
 
     - 'HOME': index.md
-    - 'DATA': data.md
-    - 'DOCKER': docker.md
-    - 'gRPC': grpc.md
-    - 'REST': rest.md
-    - 'SCRAPPING': scrapping.md
-    - 'WEBUI': webui.md
-    - 'TOOLS': tools.md
+    - 'FRAMEWORK': framework.md
+    - 'PYTHON': python.md
+    - 'RUNNER': runner.md
