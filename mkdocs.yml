@@ -59,7 +59,8 @@ plugins:
     - search:
         indexing: 'full'
         projects:
-            - project: skyant-adept
+            - project: skyantdata
+            - project: data
     
     - section-index
 
