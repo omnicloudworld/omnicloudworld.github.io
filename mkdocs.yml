@@ -3,7 +3,7 @@ site_name: SkyANT
 docs_dir: site
 
 theme: 
-    name: material
+    name: readthedocs
     favicon: assets/icons/558614-512-3.png
     logo: assets/icons/558614.svg
     palette:
