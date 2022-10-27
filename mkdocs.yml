@@ -56,11 +56,11 @@ plugins:
                     show_bases: false
                     show_category_heading: false
 
-    - search:
-        indexing: 'full'
-        projects:
-            - project: skyantdata
-            - project: data
+    #- search:
+    #    indexing: 'full'
+    #    projects:
+    #        - project: skyantdata
+    #        - project: data
     
     - section-index
 
