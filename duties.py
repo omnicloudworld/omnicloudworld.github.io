@@ -1,19 +1,5 @@
-# pylint: disable=missing-module-docstring
+# pylint: disable=W0401,W0614,C0114
 
-from duty import duty
-
-@duty
-def bsd(ctx):
-    '''
-    Build & Serv the Documentation.
-    '''
-
-    ctx.run(
-        'mkdocs build --config-file mkdocs.yml --site-dir .html',
-        title='Building documentation'
-    )
-
-    ctx.run(
-        'mkdocs serve --config-file mkdocs.yml --dev-addr 0.0.0.0:8008',
-        title='Serving on http://localhost:8008/'
-    )
+from skyant.tools.duty.general import *  # noqa=F403
+from skyant.tools.duty.pypi import *  # noqa=F403
+from skyant.tools.duty.venv import *  # noqa=F403

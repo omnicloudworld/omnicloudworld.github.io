@@ -10,7 +10,7 @@ build:
 
 python:
     install:
-        - requirements: .readthedocs.pip
+        - requirements: .readthedocs.req
 
 search:
     ignore:

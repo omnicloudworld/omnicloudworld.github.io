@@ -20,8 +20,3 @@ hide:
 
 ## [TOOLS ![](/static/icons/link18.svg)](/projects/tools)
 
-
-## [gRPC ![](/static/icons/link18.svg)](/projects/grpc)
-
-
-## [SHELL ![](/static/icons/link18.svg)](/projects/shell)
