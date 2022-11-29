@@ -2,9 +2,10 @@
 nav:
 
     - 'HOME': index.md
-    - 'FRAMEWORK': framework.md
     - 'PYTHON': python.md
     - 'RUNNER': runner.md
+    - 'DEVELOPMENT': development.md
+    - 'DONATION': donation.md
 
 site_name: SkyANT
 
