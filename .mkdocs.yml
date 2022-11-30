@@ -68,9 +68,9 @@ theme:
 
 
 extra_css:
-    - https://skyant.dev/static/css/skyant.css
-    - https://skyant.dev/static/css/hide-title.css
-    - https://skyant.dev/static/css/hide-versions.css
+    - /static/css/skyant.css
+    - /static/css/hide-title.css
+    - /static/css/hide-versions.css
 
 
 plugins:
