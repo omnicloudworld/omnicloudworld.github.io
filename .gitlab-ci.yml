@@ -1,0 +1,10 @@
+include:
+    -   project: 'facety/ci'
+        ref: main
+        file:
+            - '/gitlab/pages.yml'
+
+
+pages:
+    extends: mkdocs
+    stage: deploy
