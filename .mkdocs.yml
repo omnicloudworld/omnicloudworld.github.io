@@ -4,8 +4,7 @@ nav:
     - 'HOME': index.md
     - 'PYTHON': python.md
     - 'RUNNER': runner.md
-    - 'DEVELOPMENT': development.md
-    - 'DONATION': donation.md
+    - 'CI': ci.md
 
 site_name: SkyANT DOCS
 
