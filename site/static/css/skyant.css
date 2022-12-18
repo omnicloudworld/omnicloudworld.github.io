@@ -17,3 +17,13 @@ h0.doc-heading {
 .bmc-btn-text{
     color: #ffffff !important;
 }
+
+.md-header__inner .md-logo {
+    margin: 0px;
+    padding: 0px;
+}
+
+.md-header__inner .md-logo > img {
+    height: 42px;
+    width: 42px;
+}
