@@ -5,40 +5,37 @@ hide:
 
 #
 
-
-Developing cloud applications requires not only applications' subject skills but also experience in working in a cloud environment. It increases a barrier to entry.
-
-SkyANT provides solutions for decreasing a barrier to entry and makes cloud infrastructure more nearly to software developers.
-
-## Vision
-
-The classic strategy of development prescribes a working in two directions:
-
-1. business logic
-
-2. interaction with cloud
+__Making software for a cloud requires two vectors business-logic & cloud integration codding.__
 
 
-The SkyANT strategy give to developers opportunities to work with business logic only.
+## Framework
 
-We develop not a single library but extend many different existing libraries to integrate them into cloud providers (Google Cloud, AWS, etc.).
+Cloud Application Framework is a fleet of well-known software libraries which was been extended by cloud related methods.
 
-For example, we extend the popular pydantic.BaseModel object that uses for validating a data structure on methods which provide a single line code solution for saving data to Google Cloud Storage or sending PubSub messages, etc.
+Cloud Application Framework's libraries already contain integration tools, so it gives developers opportunities to work with business-logic only.
 
 
-=== "classic"
+=== "origin"
 
     ![](assets/diagrams/origin.drawio.svg)
 
 
-=== "micro-application framework"
+=== "cloud application framework"
 
-    ![](assets/diagrams/maf.drawio.svg)
+    ![](assets/diagrams/caf.drawio.svg)
+
+
+
+For example, we extend the popular pydantic.BaseModel object that uses for validating a data structure on methods which provide a single line code solution for saving data to Google Cloud Storage or sending PubSub messages, etc.
+
+
+## SkyANT
+
+SkyANT now includes libraries inherited from [Plotly Dash](https://dash.plotly.com){target=_blank}, [Pydantic](https://docs.pydantic.dev){target=_blank}, [FastAPI](https://fastapi.tiangolo.com){target=_blank}, [Dask](https://dask.org){target=_blank}, [Selenium](https://selenium.dev/){target=_blank}, [PyScript](https://pyscript.net){target=_blank}, [Odoo](https://odoo.com){target=_blank} & work with [Google Cloud Platform](https://cloud.google.com){target=_blank}.
 
 We emphasise libraries for data engineering and visualisation and making ML models.
 
 
-## Framework
 
 SkyANT contains:
 
