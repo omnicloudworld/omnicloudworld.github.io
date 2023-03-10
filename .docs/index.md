@@ -5,6 +5,11 @@ hide:
 
 #
 
+{%
+   include-markdown "../README.md"
+%}
+
+
 __Making software for a cloud requires two vectors business-logic & cloud integration codding.__
 
 
