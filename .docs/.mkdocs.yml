@@ -46,7 +46,7 @@ extra:
 
 theme: 
     name: material
-    favicon: https://static.omnicloud.world/common/img/icons/omni.drawio.png
+    favicon: https://static.omnicloud.world/common/img/icons/omni-color02.png
     logo: https://static.omnicloud.world/common/img/icons/omni.drawio.png
     palette:
         primary: amber
