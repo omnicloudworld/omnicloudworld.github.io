@@ -24,7 +24,7 @@ edit_uri: ""
 extra:
 
     generator: true
-    homepage: https://docs.omnicloud.world
+    #homepage: https://docs.omnicloud.world
     #analytics:
     #    provider: google
     #    property: G-1R41YK6WT2
